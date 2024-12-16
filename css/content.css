@@ -1,0 +1,61 @@
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: center;
+    color: #40a578;
+}
+
+.side-content
+{
+    width: 20%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: right;
+    height: calc(100vh - 110px);
+    border-left: 3px solid #40a57856;
+}
+
+.side-content h3
+{
+    text-align: center;
+    border-bottom: 3px solid #40a57856;
+    color: #40a57856;
+}
+.side-content a
+{
+    display: inline-block;
+    color: #40a578;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 2px;
+    width: 95%;
+    background-color: #40a57856;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.side-content a::after
+{
+    content: "📺";
+}
+.area-content
+{
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    height: calc(100vh - 110px);
+    border-right: 3px solid #40a57856;
+}
+
+.video
+{
+    width: 98%;
+    height: 70vh;
+}
+.content-info
+{
+    text-align: center;
+}

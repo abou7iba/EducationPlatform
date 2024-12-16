@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Changa", sans-serif;
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+height: 5rem;
+width: 1rem;
+}
+
+*::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+background-color: #40A578;
+}
+body
+{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-right: 5px solid #40A578; 
+    border-left: 5px solid #40A578; 
+} 
+.tabs li {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+    background-color: #40A578;
+    border-radius: 10px;
+}
+.content > div {
+    padding: 20px;  
+}
+.content > div:not(:first-child) {
+    display: none;
+}
+.profile
+{
+    margin-top: 50px;
+    text-align: right;
+    padding: 20px;
+    color: #40A578;
+}
+.profile-header
+{
+    text-align: center;
+    border-bottom: 1px solid #40a5786e;
+    padding-bottom: 15px;
+}
+
+.profile-info
+{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 30px;
+    flex-direction: row-reverse;
+    border-top: 1px solid #40A578;
+    border-bottom: 1px solid #40A578;
+    padding: 10px 5px;
+}

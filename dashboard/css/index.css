@@ -1,0 +1,39 @@
+
+.heading 
+{
+    text-align: center;
+    color: #40A578;
+    margin: 50px;
+}
+.dashboard
+{
+
+}
+
+table
+{
+    width: 90%;
+    border-collapse: collapse;
+    text-align: right;
+    color: #40A578;
+    padding: 10px 20px;
+    margin:  0 auto;
+}
+table th 
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #40a57830;
+    border: 1px solid #40a57875;
+}
+table tr td
+{
+    border: 1px solid #40a57875;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+table a
+{
+    color: #006769  ;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Changa", sans-serif;
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+    height: 5rem;
+    width: 1rem;
+ }
+ 
+ *::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ *::-webkit-scrollbar-thumb{
+    background-color: #40A578;
+ }
+body
+{
+    scroll-behavior: smooth;
+}
+header
+{
+    
+    z-index: 10;
+    background-color: #fff;
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: -8px -7px 69px 0px #40a57854;
+    -webkit-box-shadow: -8px -7px 50px 0px #40a57854;
+    padding: 0px 20px;
+}
+.login
+{
+    height: calc(100vh - 300px );
+}
+.login form
+{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 90px;
+    text-align: center;
+    box-shadow: rgba(18, 128, 24, 0.15) 0px 48px 100px 0px;
+    color: #40A578;
+    height: 450px;
+}
+.login form .txtinp 
+{
+    display: block;
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #40A578 ;
+    border-radius: 8px;
+    outline: none;
+}
+
+.login form .txtinp::placeholder
+{
+    color: #40A578;
+    font-weight: 600;
+
+}
+
+.login form .btnlog
+{
+    background-color: #40A578;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 2px solid #eee;
+    padding: 5px 15px;
+    margin: 15px auto;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.login form span {
+    color: #40A578;
+}
+.login form h1 {
+    color: #40A578;
+}
+.login form  a
+{
+    color: #006769;
+    font-weight: 600;
+    display: block;
+}
+    
+.login form .btnlog:hover
+{
+    color: #40A578;
+    background-color: #fff;
+    scale: 1.1;
+    border: 2px solid #40A578;
+}
+
+@media ( max-width: 768px )
+{
+    .login form
+    {
+        width: 75%;
+    }
+}

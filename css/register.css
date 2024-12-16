@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Changa", sans-serif;
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+    height: 5rem;
+    width: 1rem;
+ }
+ 
+ *::-webkit-scrollbar-track{
+    background-color: transparent;
+ }
+ 
+ *::-webkit-scrollbar-thumb{
+    background-color: #40A578;
+ }
+body
+{
+    scroll-behavior: smooth;
+}
+.register
+{
+    text-align: center;
+    margin: 40px 10px;
+    color: #40A578;
+}
+
+.col input
+{
+    text-align: right;
+    width: 95%;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid #40A578;
+    outline: none;
+    margin: 5px;
+}
+.col input:focus
+{
+    border: 0px solid #40A578;
+    box-shadow: 0 0 5px 0 #40A578;
+}
+.col
+{
+    width: 400px;
+    text-align: right;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap row-reverse ;
+}
+
+.select-register{
+    text-align: right;
+    width: 95%;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid #40A578;
+    outline: none;
+    margin: 5px;
+    color: #006769;
+}
+.select-register:focus
+{
+    border: 0px solid #40A578;
+    box-shadow: 0 0 5px 0 #40A578;
+}
+
+.btn
+{
+    background-color: #40A578;
+    color: #ffffff;
+    border: 1px solid #006769;
+    padding: 5px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: right;
+    outline: none;
+    margin: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.btn:hover
+{
+    background-color: #ffffff;
+    color: #40A578;
+    scale: 1.1;
+}
+
+.login-btn
+{
+    color: #006769;
+    font-weight: 600;
+    display: block;
+}
